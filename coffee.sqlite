@@ -1,0 +1,15 @@
+CREATE TABLE coffee (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  roast_level TEXT NOT NULL,
+  ground_whole_bean TEXT NOT NULL,
+  flavor_description TEXT,
+  price REAL NOT NULL,
+  volume INTEGER NOT NULL
+);
+
+INSERT INTO coffee (name, roast_level, ground_whole_bean, flavor_description, price, volume) VALUES
+('Ethiopian Yirgacheffe', 'Light', 'Whole Bean', 'Floral and fruity with notes of blueberry and citrus', 15.99, 12),
+('Sumatra Mandheling', 'Dark', 'Ground', 'Earthy and spicy with notes of chocolate and tobacco', 12.99, 16),
+('Kenya AA', 'Medium', 'Whole Bean', 'Bright and acidic with notes of black currant and grapefruit', 14.99, 12),
+('
